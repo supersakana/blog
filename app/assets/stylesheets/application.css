@@ -22,6 +22,7 @@
     --card-color: #ffffff;
     --text-color-1: #22272d;
     --text-color-2: #808080;
+    --brand-1: #2ab71d;
     --base-width: 1000px;
   }
  
@@ -75,7 +76,11 @@ nav{
 
 h1{
   font-size: 1.25rem;
-  color: var(--text-color-1);
+}
+
+h2{
+  font-size: 1.25rem;
+  margin-top: 15px;
 }
 
 li{
@@ -122,13 +127,14 @@ a, a:hover, a:visited{
 /* SHOW */
 .show-container{
   margin: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 .post-container{
   background-color: var(--card-color);
   box-shadow: 2px 2px 4px #d2d2d2;
   border-radius: 3px;
   padding: 30px 20px;
+  margin: 0px 10px;
 }
 
 .title-container{
@@ -143,4 +149,51 @@ a, a:hover, a:visited{
   gap: 15px;
   color: var(--text-color-2);
 }
+
+.comments-container{
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+
+.single-comment{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+  border: 0.5px solid rgb(207, 207, 207);
+}
+
+input[type="text"], textarea{
+  width: 100%;
+  resize: none;
+  font-size: 1rem;
+  padding: 5px 2px;
+  border: none;
+  border-radius: 3px;
+}
+
+textarea{
+  height: 80px;
+}
+
+input[type="submit"]{
+  border: none;
+  margin: 20px 0;
+  background-color: var(--brand-1);
+  padding: 10px 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  box-shadow: 2px 2px 4px #d2d2d2;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #34df24;
+}
+
+
+
 

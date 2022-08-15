@@ -20,9 +20,11 @@
     <p><%= @article.body %></p>
   </div>
 
-  <h2>Comments</h2>
-  <%= render @article.comments %>
+  <div class="comments-container">
+    <h2>Comments</h2>
+    <%= render @article.comments %>
 
-  <h2>Add a comment:</h2>
-  <%= render 'comments/form' %>
+    <h2>Add Comment:</h2>
+    <%= render 'comments/form' %>
+  </div>
 </div>
