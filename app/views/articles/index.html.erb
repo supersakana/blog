@@ -6,10 +6,9 @@
           <li>
             <%= link_to article.title, article %>
             <br>
-            <%= article.body %>
+            <%= truncate(article.body, :length => 90) %>
           </li>
         </div>
     <% end %>
     </div>
   </ul>
-
