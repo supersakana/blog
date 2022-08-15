@@ -31,6 +31,8 @@
     box-sizing: border-box;
  }
 
+ /* MAIN & INDEX */
+
 body,
 html {
   height: 100%;
@@ -69,6 +71,11 @@ nav{
 
 .logo{
   font-size: 1.9rem;
+}
+
+h1{
+  font-size: 1.25rem;
+  color: var(--text-color-1);
 }
 
 li{
@@ -112,4 +119,28 @@ a, a:hover, a:visited{
   color: var(--text-color-2);
 }
 
+/* SHOW */
+.show-container{
+  margin: auto;
+  max-width: 800px;
+}
+.post-container{
+  background-color: var(--card-color);
+  box-shadow: 2px 2px 4px #d2d2d2;
+  border-radius: 3px;
+  padding: 30px 20px;
+}
+
+.title-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.actions{
+  display: flex;
+  gap: 15px;
+  color: var(--text-color-2);
+}
 
