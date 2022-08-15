@@ -181,6 +181,7 @@ input[type="submit"]{
   border: none;
   margin: 20px 0;
   background-color: var(--card-color);
+  color: --text-color-1;
   padding: 10px 10px;
   border-radius: 5px;
   font-size: 0.9rem;
