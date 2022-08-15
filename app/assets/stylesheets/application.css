@@ -22,7 +22,6 @@
     --card-color: #ffffff;
     --text-color-1: #22272d;
     --text-color-2: #808080;
-    --brand-1: #2ab71d;
     --base-width: 1000px;
   }
  
@@ -181,19 +180,15 @@ textarea{
 input[type="submit"]{
   border: none;
   margin: 20px 0;
-  background-color: var(--brand-1);
+  background-color: var(--card-color);
   padding: 10px 10px;
-  color: #ffffff;
   border-radius: 5px;
   font-size: 0.9rem;
   box-shadow: 2px 2px 4px #d2d2d2;
+  transition: transform 0.1s ease-in;
 }
 
 input[type="submit"]:hover{
   cursor: pointer;
-  background-color: #34df24;
+  transform: scale(1.1);
 }
-
-
-
-
