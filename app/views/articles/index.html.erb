@@ -4,9 +4,9 @@
       <% @articles.reverse.each do |article| %>
         <div class="article-card">
           <li>
-            <%= link_to article.title, article %>
+            <span class="card-title"><%= link_to article.title, article %></span>
             <br>
-            <%= truncate(article.body, :length => 90) %>
+            <span class="card-body"><%= truncate(article.body, :length => 90) %></span>
           </li>
         </div>
     <% end %>

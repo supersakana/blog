@@ -1,4 +1,8 @@
 <nav>
-    <h1>Blog</h1>
-    <%= link_to "New Article", new_article_path %>
+    <h1 class="logo">Blog</h1>
+    <%# <%= link_to "New Article", new_article_path %>
+
+    <%= link_to new_article_path do %>
+    <i class="fa-solid fa-plus"></i>
+    <% end %>
 </nav>
