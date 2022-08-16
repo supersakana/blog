@@ -1,21 +1,7 @@
-# README
+# Blog
 
-My first blog app created with Ruby on Rails.
+My first CRUD app built with Ruby on Rails
 
-- Ruby version
+## Live Preview
 
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+limitless-cliffs-52363.herokuapp.com
